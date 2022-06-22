@@ -1,6 +1,16 @@
 <resources>
     <string name="app_name">Kartochki ebanie</string>
-    <string name="info_text">This game was created to develop your logic to the maximum level.
-        It trains your attention and reaction.We are a team of developers,
-        We really hope you enjoy our product!!!!</string>
+    <string name="info_text">This wonderful game is great for fun. The game will cheer you up and help train your skill and attention!
+        And these cute little animals will help you with that!</string>
+    <string name="winner_text">You are winner!!!</string>
+    <string name="cat_text">It is a cat. She is very cool
+        and brave. Everyone loves cats.</string>
+    <string name="bizon_text">It is a bison! He is the strongest,
+        but he is also very kind!</string>
+    <string name="eagle_text">It is an eagle! It is the most agile and the fastest.
+        No one flies higher than an eagle!</string>
+    <string name="kon_text">It is a horse! He is the fastest and the wisest.
+        The horse is graceful and beautiful!</string>
+    <string name="lose_text">You Lose</string>
+    <string name="attempt_text">Number of attempts</string>
 </resources>

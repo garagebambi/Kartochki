@@ -3,58 +3,140 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@drawable/one"
+    android:background="@drawable/firstbg"
     android:layout_height="match_parent"
     tools:context=".StartScreen"
     android:orientation="vertical"
-    android:gravity="center">
+    android:gravity="center"
+    android:id="@+id/startBg">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/attempt_text"
+            android:textSize="35dp"
+            android:textColor="@color/white"
+            android:fontFamily="casual"/>
+
+    </LinearLayout>
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp">
 
-        <Button
-            android:id="@+id/play"
-            android:layout_width="162dp"
-            android:text="play"
-            android:textSize="30sp"
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnMinus"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center" />
+            app:cornerRadius="50dp"
+            android:text="-"
+            android:textSize="30dp"
+            android:layout_gravity="start"
+            android:backgroundTint="#00837F"/>
 
+        <TextView
+            android:id="@+id/counter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="casual"
+            android:text="6"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnPlus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cornerRadius="50dp"
+            android:text="+"
+            android:textSize="30dp"
+            android:layout_gravity="end"
+            android:backgroundTint="#00837F"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp">
+
+        <ImageView
+            android:id="@+id/btnPlay"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/btnmain" />
+
+        <TextView
+            android:id="@+id/textPlay"
+            android:fontFamily="casual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play"
+            android:layout_gravity="center"
+            android:textSize="33dp"
+            android:textColor="@color/white"/>
 
 
     </FrameLayout>
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp">
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_margin="20dp">
 
-        <Button
-            android:id="@+id/info"
-            android:layout_width="162dp"
-            android:text="info"
-            android:textSize="30sp"
+        <ImageView
+            android:id="@+id/btnSettings"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/btnmain" />
+
+        <TextView
+            android:id="@+id/textSettings"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center" />
+            android:text="Settings"
+            android:fontFamily="casual"
+            android:layout_gravity="center"
+            android:textSize="33dp"
+            android:textColor="@color/white"/>
 
 
 
     </FrameLayout>
 
+
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp">
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_margin="20dp">
 
-        <Button
-            android:id="@+id/exit"
-            android:layout_width="162dp"
-            android:text="exit"
-            android:textSize="30sp"
+        <ImageView
+            android:id="@+id/btnExit"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/btnmain" />
+
+        <TextView
+            android:id="@+id/textExit"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center" />
-
-
+            android:text="Exit"
+            android:fontFamily="casual"
+            android:layout_gravity="center"
+            android:textSize="33dp"
+            android:textColor="@color/white"/>
 
     </FrameLayout>
 

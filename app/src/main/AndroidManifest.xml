@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KartochkiEbanie">
         <activity
+            android:name=".Setings"
+            android:exported="false" />
+        <activity
             android:name=".Info"
             android:exported="false" />
         <activity
@@ -23,9 +26,7 @@
         </activity>
         <activity
             android:name=".GameZone"
-            android:exported="true">
-
-        </activity>
+            android:exported="true"></activity>
     </application>
 
 </manifest>

@@ -3,10 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/oleyn/AndroidStudioProjects/Kartochkiebanie/app/src/main/res/drawable/colorfortext.xml" value="0.19054054054054054" />
+        <entry key="..\:/Users/oleyn/AndroidStudioProjects/Kartochkiebanie/app/src/main/res/drawable/gardient.xml" value="0.19054054054054054" />
         <entry key="..\:/Users/oleyn/AndroidStudioProjects/Kartochkiebanie/app/src/main/res/layout/activity_exit.xml" value="0.17657657657657658" />
         <entry key="..\:/Users/oleyn/AndroidStudioProjects/Kartochkiebanie/app/src/main/res/layout/activity_first_screen.xml" value="0.17657657657657658" />
+        <entry key="..\:/Users/oleyn/AndroidStudioProjects/Kartochkiebanie/app/src/main/res/layout/activity_game_zone.xml" value="0.16" />
+        <entry key="..\:/Users/oleyn/AndroidStudioProjects/Kartochkiebanie/app/src/main/res/layout/activity_info.xml" value="0.22" />
         <entry key="..\:/Users/oleyn/AndroidStudioProjects/Kartochkiebanie/app/src/main/res/layout/activity_main.xml" value="0.17" />
-        <entry key="..\:/Users/oleyn/AndroidStudioProjects/Kartochkiebanie/app/src/main/res/layout/activity_setings.xml" value="0.17657657657657658" />
+        <entry key="..\:/Users/oleyn/AndroidStudioProjects/Kartochkiebanie/app/src/main/res/layout/activity_setings.xml" value="0.2" />
+        <entry key="..\:/Users/oleyn/AndroidStudioProjects/Kartochkiebanie/app/src/main/res/layout/activity_start_screen.xml" value="0.22" />
       </map>
     </option>
   </component>

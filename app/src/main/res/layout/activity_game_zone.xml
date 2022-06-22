@@ -4,9 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/one"
+    android:background="@drawable/firstbg"
     android:orientation="vertical"
-    tools:context=".GameZone">
+    tools:context=".GameZone"
+    android:id="@+id/gameZoneBg">
 
 
     <FrameLayout
@@ -15,19 +16,30 @@
         android:layout_marginHorizontal="20sp"
         android:layout_marginTop="20sp">
 
-        <ImageButton
+        <ImageView
             android:id="@+id/oneA"
             android:layout_width="141dp"
             android:layout_height="136dp"
             android:layout_gravity="start"
-            android:src="@drawable/worda" />
+            android:src="@drawable/aimg" />
 
-        <ImageButton
+        <TextView
+            android:id="@+id/counterGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6"
+            android:fontFamily="casual"
+            android:textSize="35dp"
+            android:background="@color/red"
+            android:textColor="@color/white"
+            android:layout_gravity="center"/>
+
+        <ImageView
             android:id="@+id/twoA"
             android:layout_width="141dp"
             android:layout_height="136dp"
             android:layout_gravity="end"
-            android:src="@drawable/worda" />
+            android:src="@drawable/aimg" />
 
 
     </FrameLayout>
@@ -39,25 +51,27 @@
         android:layout_marginHorizontal="20sp"
         android:layout_marginTop="10dp">
 
-        <ImageButton
+        <ImageView
             android:id="@+id/threeA"
             android:layout_width="141dp"
             android:layout_height="136dp"
             android:layout_gravity="start"
-            android:src="@drawable/worda" />
+            android:src="@drawable/aimg" />
 
-        <ImageButton
+        <ImageView
             android:id="@+id/fourA"
             android:layout_width="141dp"
             android:layout_height="136dp"
             android:layout_gravity="end"
-            android:src="@drawable/worda" />
+            android:src="@drawable/aimg" />
 
         <TextView
             android:id="@+id/winner"
+            android:fontFamily="casual"
+            android:background="@color/red"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ты победил!"
+            android:text="@string/winner_text"
             android:textSize="30sp"
             android:textColor="@color/white"
             android:layout_gravity="center"
@@ -73,19 +87,19 @@
         android:layout_marginHorizontal="20sp"
         android:layout_marginTop="10dp">
 
-        <ImageButton
+        <ImageView
             android:id="@+id/fiveA"
             android:layout_width="141dp"
             android:layout_height="136dp"
             android:layout_gravity="start"
-            android:src="@drawable/worda" />
+            android:src="@drawable/aimg" />
 
-        <ImageButton
+        <ImageView
             android:id="@+id/sixA"
             android:layout_width="141dp"
             android:layout_height="136dp"
             android:layout_gravity="end"
-            android:src="@drawable/worda" />
+            android:src="@drawable/aimg" />
 
 
     </FrameLayout>
@@ -96,30 +110,50 @@
         android:layout_marginHorizontal="20sp"
         android:layout_marginTop="10dp">
 
-        <ImageButton
+        <ImageView
             android:id="@+id/sevenA"
             android:layout_width="141dp"
             android:layout_height="136dp"
             android:layout_gravity="start"
-            android:src="@drawable/worda" />
-
-        <ImageButton
+            android:src="@drawable/aimg"/>
+        <ImageView
             android:id="@+id/eightA"
             android:layout_width="141dp"
             android:layout_height="136dp"
             android:layout_gravity="end"
-            android:src="@drawable/worda" />
+            android:src="@drawable/aimg" />
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:src="@drawable/btnmain"
+            android:id="@+id/btnRestart"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="restart" />
+
+        <TextView
+            android:id="@+id/textRestart"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Restart"
+            android:fontFamily="casual"
+            android:layout_gravity="center"
+            android:textSize="30dp"
+            android:textColor="@color/white"/>
 
 
     </FrameLayout>
 
 
-    <Button
-        android:id="@+id/restart"
-        android:layout_width="124dp"
-        android:layout_height="58dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
-        android:text="restart" />
 
 </LinearLayout>
